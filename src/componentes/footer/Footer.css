@@ -1,0 +1,14 @@
+.footer{
+    background: gray;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 5px;
+   
+}
+
+.btn_subir{
+    font-size: 2rem;
+    text-decoration: none;
+}
