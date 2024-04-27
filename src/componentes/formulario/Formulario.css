@@ -1,0 +1,52 @@
+.div{
+   margin:auto ;
+    padding: 1rem;
+    border:2px solid black;
+    background-color: cadetblue;
+    max-width: 600px;
+}
+
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+    border:2px solid black;
+    background-color: cadetblue;
+    max-width: 600px;
+
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-left: 5px;
+    font-size:large;
+    border:2px solid black;
+    background-color: rgb(236, 242, 242);
+    color: #000;
+    max-width: 600px;
+}
+
+.btnSubmit{
+    display: block;
+    padding: 5px;
+    margin-top: 1rem;
+    font-size:large;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: rgb(41, 234, 234);
+    color: #000;
+   cursor: pointer;
+}
+
+.btnSubmit:hover{
+    
+    background-color: rgb(27, 167, 167);
+    
+}

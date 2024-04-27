@@ -1,14 +1,15 @@
 import React from 'react'
+import './Usuario.css'
 
 
-const Usuario = ({ name, age, country, image }) => {
+const Usuario = ({ name,   country, image }) => {
     return (
         <>
      
            <div className="card">
-                <h2>Usuario:{name}</h2>
-                <h3>Edad:{age}</h3>
-                <img src={image} />
+                <h2> {name}</h2>
+             
+                <img src={image}  />
                 <h3>Pais:{country}</h3>
               
 

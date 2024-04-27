@@ -1,0 +1,49 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #3c578a;
+    --text-color: #fff;
+    --main-color:orange;
+  }
+ 
+  .title{
+    font:2rem sans-serif;
+  }
+  .blog-post   {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   
+  }
+
+
+  
+  .blog-post .btn{
+    margin-top: 30px;
+    font-size: 1.3rem;
+  background-color: blue;
+   
+  }
+
+
+  .btn {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 2rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+   
+  }
+  
+  .btn:hover {
+    box-shadow: none;
+    background: #1f242d;
+  }
+  a{
+    text-decoration: none;
+  }

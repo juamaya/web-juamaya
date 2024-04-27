@@ -1,0 +1,27 @@
+:root {
+    
+  
+    --text-color: #fff;
+    --main-color:orange;
+  }
+
+  .btnSubir {
+    
+    margin: 1rem;
+    padding: 1rem 2.8rem;
+    background: rgb(78, 78, 218);
+ 
+    border-radius: 4rem;
+    box-shadow: 0 0 2rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+   
+  }
+  
+  .btnSubir:hover {
+    box-shadow: none;
+    background: #1f242d;
+  }

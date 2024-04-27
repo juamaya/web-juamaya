@@ -1,4 +1,5 @@
 import React from 'react'
+import Formulario from '../componentes/formulario/Formulario'
  
 
 
@@ -7,7 +8,8 @@ const Contacto = () => {
   return (
     <>
       <div>Contacto</div>
- 
+      
+ <Formulario/>
       <h1>Mapa en React con iframe</h1>
       <iframe
         title="Google Map"
